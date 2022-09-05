@@ -1,0 +1,963 @@
+Log started at 9/5/2022 7:20:34 PM (2022-09-05T11:20:34Z)
+Parsing command line: -ScriptsForProject="C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/ObstacleAssault.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=63414 -project="C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/ObstacleAssault.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project="C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/ObstacleAssault.uproject" -target=ObstacleAssault -unrealexe="C:\Program Files\UE_5.0\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -ddc=InstalledDerivedDataBackendGraph -installed -stage -archive -package -build -compressed -pak -prereqs -archivedirectory="C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/package" -clientconfig=Development -nocompile
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\Android.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\AutomationScripts.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\AutomationUtils.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\BuildGraph.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\CookedEditor.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\CrowdinLocalization.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\EpicGames.Build.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\EpicGames.BuildGraph.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\EpicGames.Core.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\EpicGames.Jupiter.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\Gauntlet.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\HoloLens.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\IOS.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\Linux.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\Localization.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\LowLevelTests.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\Mac.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\OneSkyLocalization.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\Turnkey.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\TVOS.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\UnrealBuildTool.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\Win.Automation.json
+Loaded script module build record C:\Program Files\UE_5.0\Engine\Intermediate\ScriptModules\XLocLocalization.Automation.json
+[Source\Programs\AutomationTool\Android\Android.Automation.csproj] recorded target build time (7/7/2022 10:52:51 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Android\Android.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\AutomationUtils\AutomationUtils.Automation.csproj] recorded target build time (7/7/2022 10:52:49 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationUtils\AutomationUtils.Automation.dll (8/20/2022 6:58:42 AM)
+[Source\Programs\AutomationTool\BuildGraph\BuildGraph.Automation.csproj] recorded target build time (7/7/2022 10:52:55 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\BuildGraph\BuildGraph.Automation.dll (8/20/2022 6:58:37 AM)
+[Source\Programs\AutomationTool\CookedEditor\CookedEditor.Automation.csproj] recorded target build time (7/7/2022 10:52:56 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\CookedEditor.Automation.dll (8/20/2022 6:58:37 AM)
+[Source\Programs\AutomationTool\CrowdinLocalization\CrowdinLocalization.Automation.csproj] recorded target build time (7/7/2022 10:52:52 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\CrowdinLocalization.Automation.dll (8/20/2022 6:58:37 AM)
+[Source\Programs\AutomationTool\Gauntlet\Gauntlet.Automation.csproj] recorded target build time (7/7/2022 10:52:53 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Gauntlet\Gauntlet.Automation.dll (8/20/2022 6:58:38 AM)
+[Source\Programs\AutomationTool\HoloLens\HoloLens.Automation.csproj] recorded target build time (7/7/2022 10:52:52 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\HoloLens.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\IOS\IOS.Automation.csproj] recorded target build time (7/7/2022 10:52:55 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\IOS\IOS.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\Linux\Linux.Automation.csproj] recorded target build time (7/7/2022 10:52:53 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Linux\Linux.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\Localization\Localization.Automation.csproj] recorded target build time (7/7/2022 10:52:49 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\Localization.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\LowLevelTests\LowLevelTests.Automation.csproj] recorded target build time (7/7/2022 10:52:54 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\LowLevelTests\LowLevelTests.Automation.dll (8/20/2022 6:58:42 AM)
+[Source\Programs\AutomationTool\Mac\Mac.Automation.csproj] recorded target build time (7/7/2022 10:52:49 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\Mac.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\OneSkyLocalization\OneSkyLocalization.Automation.csproj] recorded target build time (7/7/2022 10:52:51 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\OneSkyLocalization.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\Scripts\AutomationScripts.Automation.csproj] recorded target build time (7/7/2022 10:52:50 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\AutomationScripts.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\Turnkey\Turnkey.Automation.csproj] recorded target build time (7/7/2022 10:52:54 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\Turnkey.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\TVOS\TVOS.Automation.csproj] recorded target build time (7/7/2022 10:52:56 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\TVOS\TVOS.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\Win\Win.Automation.csproj] recorded target build time (7/7/2022 10:52:55 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\Win.Automation.dll (8/20/2022 6:58:41 AM)
+[Source\Programs\AutomationTool\XLocLocalization\XLocLocalization.Automation.csproj] recorded target build time (7/7/2022 10:52:52 AM) does not match ..\..\..\Binaries\DotNET\AutomationTool\AutomationScripts\XLocLocalization\XLocLocalization.Automation.dll (8/20/2022 6:58:42 AM)
+Setting up command environment.
+SafeFileExists C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationTool.exe=True
+SafeFileExists C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationTool.exe=True
+GetEnvironmentVariable uebp_LOCAL_ROOT=
+GetEnvironmentVariable uebp_LOCAL_ROOT=
+GetEnvironmentVariable uebp_EngineSavedFolder=
+SetEnvVar uebp_EngineSavedFolder=C:/Program Files/UE_5.0/Engine/Programs/AutomationTool/Saved
+GetEnvironmentVariable uebp_EngineSavedFolder=C:/Program Files/UE_5.0/Engine/Programs/AutomationTool/Saved
+GetEnvironmentVariable uebp_CSVFile=
+GetEnvironmentVariable uebp_LogFolder=
+GetEnvironmentVariable uebp_LOCAL_ROOT=C:/Program Files/UE_5.0
+SetEnvVar uebp_LogFolder=C:/Users/tayke/AppData/Roaming/Unreal Engine/AutomationTool/Logs/C+Program+Files+UE_5.0
+SafeDeleteFile C:\Users\tayke\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.0\Log.txt
+GetEnvironmentVariable uebp_FinalLogFolder=
+SetEnvVar uebp_FinalLogFolder=C:/Users/tayke/AppData/Roaming/Unreal Engine/AutomationTool/Logs/C+Program+Files+UE_5.0
+SafeFileExists C:\WINDOWS\system32\robocopy.exe=True
+SafeFileExists C:\WINDOWS\system32\mount.exe=False
+SafeFileExists C:\WINDOWS\Sysnative\mount.exe=False
+SafeFileExists C:\WINDOWS\system32\cmd.exe=True
+SetEnvVar MallocNanoZone=0
+GetEnvironmentVariable uebp_UATChildInstance=0
+Found Visual Studio installation: C:\Program Files\Microsoft Visual Studio\2022\Community (Product=Microsoft.VisualStudio.Product.Community, Version=17.3.32825.248)
+
+Log location: C:\Users\tayke\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.0\Log.txt
+No config file at C:\Users\tayke\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\tayke\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Note: Android toolchain NDK r21b recommended
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+HoloLens using Manual SDK 10.0.19041.0
+Win64 using Manual SDK 10.0.19041.0
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Android\Android.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\AutomationScripts.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationUtils\AutomationUtils.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\BuildGraph\BuildGraph.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\CookedEditor.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\CrowdinLocalization.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Gauntlet\Gauntlet.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\HoloLens.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\IOS\IOS.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Linux\Linux.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\Localization.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\LowLevelTests\LowLevelTests.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\Mac.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\OneSkyLocalization.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\Turnkey.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\TVOS\TVOS.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\Win.Automation.dll
+Loading script DLL: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\XLocLocalization\XLocLocalization.Automation.dll
+BUILD SUCCESSFUL
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject=True
+Setting up ProjectParams for C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject
+SafeFileExists C:\Users\tayke\AppData\Local\Temp\UAT\C+Program+Files+UE_5.0\Rules\UATRules-356b57076e6ff61af2a5a710badab5b3.dll=False
+Compiling C:\Users\tayke\AppData\Local\Temp\UAT\C+Program+Files+UE_5.0\Rules\UATRules-356b57076e6ff61af2a5a710badab5b3.dll: Assembly does not exist
+Project Params **************
+AdditionalServerMapParams=
+Archive=True
+ArchiveMetaData=False
+CreateAppBundle=True
+BaseArchiveDirectory=C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\package
+BaseStageDirectory=C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Saved\StagedBuilds
+Build=True
+SkipBuildClient=False
+SkipBuildEditor=True
+Cook=True
+Clean=
+Client=False
+ClientConfigsToBuild=Development
+ClientCookedTargets=ObstacleAssault
+ClientTargetPlatform=Win64
+Compressed=True
+ForceUncompressed=False
+AdditionalPakOptions=
+AdditionalIoStoreOptions=
+CookOnTheFly=False
+CookOnTheFlyStreaming=False
+UnversionedCookedContent=True
+SkipCookingEditorContent=False
+NumCookersToSpawn=0
+GeneratePatch=False
+AddPatchLevel=False
+StageBaseReleasePaks=False
+DiscVersion=
+CreateReleaseVersion=
+BasedOnReleaseVersion=
+OriginalReleaseVersion=
+DLCFile=
+DLCIncludeEngineContent=False
+DLCPakPluginFile=False
+DLCOverrideCookedSubDir=
+DLCOverrideStagedSubDir=
+DiffCookedContentPath=
+AdditionalCookerOptions=
+DedicatedServer=False
+DirectoriesToCook=
+DDCGraph=InstalledDerivedDataBackendGraph
+CulturesToCook=<Not Specified> (Use Defaults)
+EditorTargets=ObstacleAssaultEditor
+Foreign=False
+IsCodeBasedProject=True
+IsProgramTarget=False
+IterativeCooking=False
+IterateSharedCookedBuild=
+IterateSharedBuildUsePrecompiledExe=False
+CookAll=False
+CookPartialGC=False
+CookInEditor=False
+CookMapsOnly=False
+Deploy=False
+IterativeDeploy=False
+FastCook=False
+LogWindow=False
+Manifests=False
+MapToRun=
+NoClient=False
+NumClients=0
+NoDebugInfo=False
+SeparateDebugInfo=False
+MapFile=False
+NoCleanStage=False
+NoXGE=False
+MapsToCook=
+MapIniSectionsToCook=
+Pak=True
+IgnorePaksFromDifferentCookSource=False
+IoStore=False
+SkipIoStore=False
+Cook4IoStore=False
+ZenStore=False
+SkipEncryption=False
+GenerateOptimizationData=False
+SkipPackage=False
+Package=True
+ForcePackageData=False
+NullRHI=False
+FakeClient=False
+EditorTest=False
+RunAutomationTests=False
+RunAutomationTest=
+RunTimeoutSeconds=0
+CrashIndex=0
+ProgramTargets=
+ProjectPlatformBinariesPaths=[Win64, C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64]
+ProjectExePaths=[Win64, C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.exe]
+Distribution=False
+PackageEncryptionKeyFile=
+Prebuilt=False
+Prereqs=True
+AppLocalDirectory=
+NoBootstrapExe=False
+RawProjectPath=C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject
+Run=False
+ServerConfigsToBuild=Development
+ServerCookedTargets=
+ServerTargetPlatform=Win64
+ShortProjectName=ObstacleAssault
+SignedPak=False
+SignPak=
+SkipCook=False
+SkipCookOnTheFly=False
+SkipPak=False
+PrePak=False
+SkipStage=False
+Stage=True
+bTreatNonShippingBinariesAsDebugFiles=False
+bUseExtraFlavor=False
+StageDirectoryParam=
+AdditionalPackageOptions=
+Project Params **************
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject=True
+********** BUILD COMMAND STARTED **********
+************************* UnrealBuild:
+************************* UseXGE: False
+************************* UseParallelExecutor: False
+SafeFileExists C:\Program Files\UE_5.0\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.exe=True
+SafeDeleteFile C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Manifest.xml
+SafeFileExists C:\Program Files\UE_5.0\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.exe=True
+Running: C:\Program Files\UE_5.0\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.exe ObstacleAssault Win64 Development -Project="C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject"  "C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject" -NoUBTMakefiles  -remoteini="C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault" -skipdeploy -Manifest="C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\tayke\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.0\UBT-ObstacleAssault-Win64-Development.txt"
+Log file: C:\Users\tayke\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.0\UBT-ObstacleAssault-Win64-Development.txt
+Writing manifest to C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Manifest.xml
+Target is up to date
+Total execution time: 4.16 seconds
+Took 5.6230391s to run UnrealBuildTool.exe, ExitCode=0
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\D3D12\D3D12Core.dll=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\D3D12\D3D12Core.dll=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\D3D12\d3d12SDKLayers.dll=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\D3D12\d3d12SDKLayers.dll=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.exe=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.exe=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.pdb=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.pdb=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.target=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.target=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\OpenImageDenoise.dll=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\OpenImageDenoise.dll=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\tbb.dll=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\tbb.dll=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\tbb12.dll=True
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\tbb12.dll=True
+SafeDeleteFile C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Manifest.xml
+Build products *******
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\D3D12\D3D12Core.dll=True
+C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\D3D12\D3D12Core.dll
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\D3D12\d3d12SDKLayers.dll=True
+C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\D3D12\d3d12SDKLayers.dll
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.exe=True
+C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.exe
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.pdb=True
+C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.pdb
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.target=True
+C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\ObstacleAssault.target
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\OpenImageDenoise.dll=True
+C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\OpenImageDenoise.dll
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\tbb.dll=True
+C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\tbb.dll
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\tbb12.dll=True
+C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Binaries\Win64\tbb12.dll
+End Build products *******
+********** BUILD COMMAND COMPLETED **********
+SafeFileExists C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject=True
+********** COOK COMMAND STARTED **********
+SafeFileExists C:\Program Files\UE_5.0\Engine\Binaries\Win64\UnrealEditor-Cmd.exe=True
+Running UnrealEditor Cook for project C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject
+Commandlet log file is C:\Program Files\UE_5.0\Engine\Programs\AutomationTool\Saved\Cook-2022.09.05-19.20.43.txt
+SafeFileExists C:\Program Files\UE_5.0\Engine\Binaries\Win64\UnrealEditor-Cmd.exe=True
+Running: C:\Program Files\UE_5.0\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject" -run=Cook  -TargetPlatform=Windows -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog="C:\Program Files\UE_5.0\Engine\Programs\AutomationTool\Saved\Cook-2022.09.05-19.20.43.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ObstacleAssault
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject" -run=Cook -TargetPlatform=Windows -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog="C:\Program Files\UE_5.0\Engine\Programs\AutomationTool\Saved\Cook-2022.09.05-19.20.43.txt" -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (21H2) [10.0.19044.1889] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="bea7fef44b36a9ee126227ac6b825551"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogConfig: Display: Loading HoloLens ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.05 seconds
+LogConfig: Display: Loading Android ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.08 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.08 seconds
+LogConfig: Display: Loading TVOS ini files took 0.07 seconds
+LogConfig: Display: Loading Unix ini files took 0.06 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+LogConfig: Display: Loading Windows ini files took 0.06 seconds
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+LogHAL: Display: Platform has ~ 16 GB [17129619456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+LogTargetPlatformManager: Display: Building Assets For Windows
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../Users/tayke/Documents/Unreal Projects/ObstacleAssault/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../Users/tayke/Documents/Unreal Projects/ObstacleAssault/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+LogDerivedDataCache: Display: Performance to C:/Users/tayke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.04ms. RandomReadSpeed=264.57MBs, RandomWriteSpeed=152.25MBs. Assigned SpeedClass 'Local'
+LogShaderCompilers: Display: Using Local Shader Compiler with 5 workers.
+LogEditorDomain: Display: EditorDomain is Disabled
+LogAssetRegistry: Error: Package C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC.uasset has malformed tag
+LogAssetRegistry: Error: Package C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N.uasset has malformed tag
+LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+LogCook: Display: Mobile HDR setting 1
+LogCook: Display: Creating asset registry
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Clearing all cooked content for platform Windows
+LogCook: Display: Sandbox cleanup took 0.117 seconds for platforms Windows
+LogCook: Display: Checking global shaders for platform Windows
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: === FShaderJobCache stats ===
+LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+LogShaderCompilers: Display: === Shader Compilation stats ===
+LogShaderCompilers: Display: Shaders Compiled: 0
+LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+LogShaderCompilers: Display: ================================================
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 352 (35200.00%)
+LogShaderLibrary: Display: Total Shaders: 3967, Unique Shaders: 3953 (99.65%)
+LogShaderLibrary: Display: Total Shader Size: 10.19mb, Unique Shaders Size: 10.19mb (99.95%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 365
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     4, 3, 2, 2, 2, 2, 2, 2, 2, 2
+LogShaderLibrary: Display: Textual dump saved to '../../../../../Users/tayke/Documents/Unreal Projects/ObstacleAssault/Saved/Shaders/PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Warning: Package /Game/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC exists on disk but does not exist in the AssetRegistry
+LogCook: Warning: Package /Game/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N exists on disk but does not exist in the AssetRegistry
+LogCook: Display: Cooked packages 0 Packages Remain 1507 Total 1507
+LogCook: Display: Cook Diagnostics: OpenFileHandles=177, VirtualMemory=726MiB
+LogCook: Display: Cooked packages 0 Packages Remain 1469 Total 1469
+LogTexture: Display: Texture Encode Speed: Final (cook).
+LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+LogCook: Display: Cooked packages 8 Packages Remain 1461 Total 1469
+LogTexture: Display: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogCook: Display: Cooked packages 103 Packages Remain 1366 Total 1469
+LogCook: Display: Cooked packages 145 Packages Remain 1324 Total 1469
+LogCook: Display: Cooked packages 161 Packages Remain 1308 Total 1469
+LogCook: Display: Cooked packages 177 Packages Remain 1292 Total 1469
+LogCook: Display: Cooked packages 193 Packages Remain 1276 Total 1469
+LogCook: Display: Cooked packages 209 Packages Remain 1260 Total 1469
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/SCK_Casual01/Models/Environment_Meshes/Floor_main) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/SCK_Casual01/Models/Environment_Meshes/Floor_Frame) ...
+LogCook: Display: Cooked packages 268 Packages Remain 1201 Total 1469
+LogCook: Display: Cooked packages 283 Packages Remain 1186 Total 1469
+LogCook: Display: Cooked packages 299 Packages Remain 1170 Total 1469
+LogCook: Display: Cooked packages 315 Packages Remain 1154 Total 1469
+LogCook: Display: Cooked packages 331 Packages Remain 1138 Total 1469
+LogCook: Display: Cooked packages 347 Packages Remain 1122 Total 1469
+LoadErrors: Error: The summary for the package '/Game/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC' is invalid. Check that the file is of the expected type and not corrupted.
+LogCook: Error: Error loading C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC.uasset!
+LoadErrors: Error: The summary for the package '/Game/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC' is invalid. Check that the file is of the expected type and not corrupted.
+LogCook: Error: Error loading C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC.uasset!
+LoadErrors: Error: The summary for the package '/Game/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N' is invalid. Check that the file is of the expected type and not corrupted.
+LogCook: Error: Error loading C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N.uasset!
+LoadErrors: Error: The summary for the package '/Game/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N' is invalid. Check that the file is of the expected type and not corrupted.
+LogCook: Error: Error loading C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N.uasset!
+LogCook: Display: Cooked packages 363 Packages Remain 1104 Total 1467
+LogCook: Display: Cooked packages 381 Packages Remain 1086 Total 1467
+LogCook: Display: Cook Diagnostics: OpenFileHandles=469, VirtualMemory=885MiB
+LogCook: Display: Cooked packages 408 Packages Remain 1059 Total 1467
+LogCook: Display: Cooked packages 413 Packages Remain 1054 Total 1467
+LogCook: Display: Cooked packages 431 Packages Remain 1036 Total 1467
+LogCook: Display: Cooked packages 487 Packages Remain 980 Total 1467
+LogCook: Display: Cooked packages 506 Packages Remain 961 Total 1467
+LogCook: Display: Cooked packages 520 Packages Remain 947 Total 1467
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Hour_of_Code/Static_Meshes/SM_Kit_Door_01) ...
+LogCook: Display: Cooked packages 548 Packages Remain 919 Total 1467
+LogCook: Display: Cooked packages 571 Packages Remain 896 Total 1467
+LogCook: Display: Cooked packages 694 Packages Remain 857 Total 1551
+LogCook: Display: Cooked packages 751 Packages Remain 836 Total 1587
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/ControlRig/Controls/ControlRig_Sphere_1mm) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/ControlRig/Controls/ControlRig_QuarterCircle_3mm) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/ControlRig/Controls/ControlRig_HalfCircle_1mm) ...
+LogCook: Display: Loading secondary levels for package 'Map_3-2_FollowLine'
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Robots/StaticMeshes/SM_SplinePlane) ...
+LogCook: Display: Loading secondary levels for package 'Map_3-2_FollowLine_Env'
+LogCook: Display: Loading secondary levels for package 'Map_2-2_SumoRing'
+LogCook: Display: Loading secondary levels for package 'Map_2-2_SumoRing_Env'
+LogCook: Display: Cooked packages 846 Packages Remain 741 Total 1587
+LogCook: Display: Cooked packages 958 Packages Remain 630 Total 1588
+LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (MESH_PC_00) ...
+LogCook: Display: Cooked packages 1038 Packages Remain 550 Total 1588
+LogCook: Display: Cooked packages 1102 Packages Remain 486 Total 1588
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Games/Assets/Environment/KitGround/SM_KitGround_Sidewalk_Curb2Edge) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Games/Assets/Environment/KitGround/SM_KitGround_Sidewalk_Curb2CornerA) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Games/Assets/Environment/KitGround/SM_KitGround_Sidewalk_Curb1Corner) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Games/Assets/Architecture/KitCottage/SM_KitCottage_Awning) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Robots/StaticMeshes/Robot/SM_KitRobot_Rail) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Robots/StaticMeshes/MergedActors/MA_Building_2x2x4) ...
+LogCook: Display: Loading secondary levels for package 'Map_BuildRobot_Env'
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Robots/StaticMeshes/WorldDecor/SM_BallSoccerA) ...
+LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_CarbonFiber': Can't find file.
+LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_CarbonFiber'
+LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_Metal_Gold': Can't find file.
+LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_Metal_Gold'
+LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_Metal_Platinum': Can't find file.
+LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_Metal_Platinum'
+LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_MetalBrushed': Can't find file.
+LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_MetalBrushed'
+LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_PlasticShinyH': Can't find file.
+LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_PlasticShinyH'
+LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_Rubber': Can't find file.
+LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_Rubber'
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Robots/StaticMeshes/MergedActors/MA_robot_d) ...
+LogCook: Display: Cooked packages 1246 Packages Remain 337 Total 1583
+LogCook: Display: Cook Diagnostics: OpenFileHandles=1420, VirtualMemory=1181MiB
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Games/Assets/Props/Powerups/Powerup_A/SM_Powerup_01_Shard04) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Games/Assets/Props/Powerups/Powerup_A/SM_Powerup_01_Shard03) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Games/Assets/Props/Buttons/Button_A/SM_Button_A) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Robots/StaticMeshes/MergedActors/MA_Building_1x1b) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Hour_of_Code/Static_Meshes/MA_setDressing_c) ...
+LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_Robot_c.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Moveable/MI_AsphaltA': Can't find file.
+LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Moveable/MI_AsphaltA'
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Robots/StaticMeshes/MergedActors/MA_Robot_c) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LearningKit_Robots/StaticMeshes/MergedActors/MA_Building_3x3_Patiob) ...
+LogCook: Display: Loading secondary levels for package 'Map_4-1_Distance_Env'
+LogCook: Display: Cooked packages 1374 Packages Remain 210 Total 1584
+LogCook: Display: Loading secondary levels for package 'Map_4-3_DistanceFollowline_Env'
+LogCook: Display: Loading secondary levels for package 'Map_2-1_LineDetection_Env'
+LogCook: Display: Loading secondary levels for package 'Map_5-1_RemoteControl_Env'
+LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\BlockGame\Maps\BlockGameMap.umap: Failed to load '/Engine/EngineSky/M_SkyTimeOfDay': Can't find file.
+LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Engine/EngineSky/M_SkyTimeOfDay'
+LogCook: Display: Loading secondary levels for package 'Map_3-1_FollowLine_Env'
+LogCook: Display: Cooked packages 1390 Packages Remain 194 Total 1584
+LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Antenna.uasset: Failed to load '/Game/LearningKit_Games/Assets/Robot/SM_KitRobot_IRSensorA': Can't find file.
+LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/Assets/Robot/SM_KitRobot_IRSensorA'
+LogCook: Display: Cooked packages 1406 Packages Remain 178 Total 1584
+LogCook: Display: Loading secondary levels for package 'Map_1-6_Challenge_Env'
+LogCook: Display: Loading secondary levels for package 'Map_5-1_RemoteControl'
+LogCook: Display: Loading secondary levels for package 'Map_4-2_Distance'
+LogCook: Display: Loading secondary levels for package 'Map_3-1_FollowLine'
+LogCook: Display: Loading secondary levels for package 'Map_2-1_LineDetection'
+LogCook: Display: Loading secondary levels for package 'Map_1-4_Turning'
+LogCook: Display: Loading secondary levels for package 'Map_1-6_Challenge'
+LogCook: Display: Cooked packages 1422 Packages Remain 162 Total 1584
+LogCook: Display: Loading secondary levels for package 'Map_BuildRobot'
+LogCook: Display: Loading secondary levels for package 'Map_4-1_Distance'
+LogCook: Display: Loading secondary levels for package 'Map_4-3_Distance_Followline'
+LogCook: Display: Loading secondary levels for package 'Map_1-1_BalanceAndDesignA'
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L5/Map_5-1_RemoteControl.Map_5-1_RemoteControl:PersistentLevel.BPC_Robot_Remote_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L5/Map_5-1_RemoteControl.Map_5-1_RemoteControl:PersistentLevel.BPC_Robot_Remote_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-2_Distance.Map_4-2_Distance:PersistentLevel.BPC_Robot_Distance_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-2_Distance.Map_4-2_Distance:PersistentLevel.BPC_Robot_Distance_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L3/Map_3-1_FollowLine.Map_3-1_FollowLine:PersistentLevel.BPC_Robot_FollowLine_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L3/Map_3-1_FollowLine.Map_3-1_FollowLine:PersistentLevel.BPC_Robot_FollowLine_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L2/Map_2-1_LineDetection.Map_2-1_LineDetection:PersistentLevel.BPC_Robot_LineDection.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L2/Map_2-1_LineDetection.Map_2-1_LineDetection:PersistentLevel.BPC_Robot_LineDection.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_SpinA_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_SpinA_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_TurnOneWheel_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_TurnOneWheel_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_TurnArc_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_TurnArc_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-6_Challenge.Map_1-6_Challenge:PersistentLevel.BPC_Robot_Deadrec_Challenge_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-6_Challenge.Map_1-6_Challenge:PersistentLevel.BPC_Robot_Deadrec_Challenge_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_BuildRobot.Map_BuildRobot:PersistentLevel.BPC_Robot_TESTING_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_BuildRobot.Map_BuildRobot:PersistentLevel.BPC_Robot_TESTING_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogCook: Display: Loading secondary levels for package 'Map_1-2_FrictionTraction'
+LogCook: Display: Loading secondary levels for package 'Map_1-1_BalanceAndDesignB'
+LogCook: Display: Loading secondary levels for package 'Map_RoboTown'
+LogCook: Display: Loading secondary levels for package 'Map_1-3_MovingStraight'
+LogCook: Display: Loading secondary levels for package 'Map_1-5_DeadReckoning'
+LogCook: Display: Cooked packages 1438 Packages Remain 155 Total 1593
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-1_Distance.Map_4-1_Distance:PersistentLevel.BPC_Robot_Distance_Turn_FINAL_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-1_Distance.Map_4-1_Distance:PersistentLevel.BPC_Robot_Distance_Turn_FINAL_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-3_Distance_Followline.Map_4-3_Distance_Followline:PersistentLevel.BPC_Robot_FollowLine_FINAL_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-3_Distance_Followline.Map_4-3_Distance_Followline:PersistentLevel.BPC_Robot_FollowLine_FINAL_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_WheelCollisionIssue_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_WheelCollisionIssue_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_Unicycle_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_Unicycle_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_TopHeavy_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_TopHeavy_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-2_FrictionTraction.Map_1-2_FrictionTraction:PersistentLevel.BPC_Robot_WideWheels_Long2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-2_FrictionTraction.Map_1-2_FrictionTraction:PersistentLevel.BPC_Robot_WideWheels_Long2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-2_FrictionTraction.Map_1-2_FrictionTraction:PersistentLevel.BPC_Robot_WideWheels_Long_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-2_FrictionTraction.Map_1-2_FrictionTraction:PersistentLevel.BPC_Robot_WideWheels_Long_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-2_FrictionTraction.Map_1-2_FrictionTraction:PersistentLevel.BPC_Robot_Simple2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-2_FrictionTraction.Map_1-2_FrictionTraction:PersistentLevel.BPC_Robot_Simple2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-2_FrictionTraction.Map_1-2_FrictionTraction:PersistentLevel.BPC_Robot_Simple_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-2_FrictionTraction.Map_1-2_FrictionTraction:PersistentLevel.BPC_Robot_Simple_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignB.Map_1-1_BalanceAndDesignB:PersistentLevel.BPC_Robot_Unicycle_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignB.Map_1-1_BalanceAndDesignB:PersistentLevel.BPC_Robot_Unicycle_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignB.Map_1-1_BalanceAndDesignB:PersistentLevel.BPC_Robot_WheelCollisionIssue_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignB.Map_1-1_BalanceAndDesignB:PersistentLevel.BPC_Robot_WheelCollisionIssue_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignB.Map_1-1_BalanceAndDesignB:PersistentLevel.BPC_Robot_TopHeavy_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignB.Map_1-1_BalanceAndDesignB:PersistentLevel.BPC_Robot_TopHeavy_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Distance2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Distance2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Distance_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Distance_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_FollowLine_Sensors2_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_FollowLine_Sensors2_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_FollowLine_Sensors3.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_FollowLine_Sensors3.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_FollowLine_Sensors4.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_FollowLine_Sensors4.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Sensor_Multi_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Sensor_Multi_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_SpinA2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_SpinA2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_SpinA3.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_SpinA3.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_SpinA4.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_SpinA4.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_SpinA5.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_SpinA5.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_SpinA_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_Simple_SpinA_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_DistanceFollowLine2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_DistanceFollowLine2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_DistanceFollowLine3_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_DistanceFollowLine3_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_DistanceFollowLine4.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_DistanceFollowLine4.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_DistanceFollowLine5.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_DistanceFollowLine5.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_DistanceFollowLine_4.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_RoboTown.Map_RoboTown:PersistentLevel.BPC_Robot_DistanceFollowLine_4.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-3_MovingStraight.Map_1-3_MovingStraight:PersistentLevel.BPC_Robot_Backward_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-3_MovingStraight.Map_1-3_MovingStraight:PersistentLevel.BPC_Robot_Backward_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-3_MovingStraight.Map_1-3_MovingStraight:PersistentLevel.BPC_Robot_Forward_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-3_MovingStraight.Map_1-3_MovingStraight:PersistentLevel.BPC_Robot_Forward_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-5_DeadReckoning.Map_1-5_DeadReckoning:PersistentLevel.BPC_Robot_Deadrec_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-5_DeadReckoning.Map_1-5_DeadReckoning:PersistentLevel.BPC_Robot_Deadrec_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BP_Robot_MASTER.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BP_Robot_MASTER.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Simple_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Simple_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_DeadRec_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_DeadRec_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_DeadRec_Challenge_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_DeadRec_Challenge_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Simple_SpinA_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Simple_SpinA_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Simple_SpinB_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Simple_SpinB_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Simple_TurnArc_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Simple_TurnArc_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Simple_TurnOneWheel_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Simple_TurnOneWheel_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_TopHeavy_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_TopHeavy_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Unicycle_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Unicycle_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_WheelCollisionIssue_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_WheelCollisionIssue_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_WideWheels_Long_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_WideWheels_Long_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_WideWheels_SpinA_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_WideWheels_SpinA_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_WideWheels_SpinB_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_WideWheels_SpinB_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_LineDetection_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_LineDetection_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_LineDetection_FINAL_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_LineDetection_FINAL_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_LineDetection_sensor_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_LineDetection_sensor_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_FollowLine_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_FollowLine_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_FollowLine_FINAL_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_FollowLine_FINAL_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_FollowLine_sensor_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_FollowLine_sensor_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_FollowLine_Sensors2_FINAL_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_FollowLine_Sensors2_FINAL_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BP_Robot_DistanceFollowLine_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BP_Robot_DistanceFollowLine_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Distance_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Distance_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Distance_FINAL_3.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Distance_FINAL_3.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Distance_Turn_FINAL_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Distance_Turn_FINAL_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_DistanceFollowLine_FINAL_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_DistanceFollowLine_FINAL_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Remote_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Remote_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Remote_FINAL_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Remote_FINAL_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Remote_FINAL_P2_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+PIE: Warning: Constraint in '/Game/LearningKit_Games/Maps/LearningKit_Robotics_Showcase.LearningKit_Robotics_Showcase:PersistentLevel.BPC_Robot_Remote_FINAL_P2_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogCook: Display: Cooked packages 1454 Packages Remain 135 Total 1589
+LogCook: Display: Loading secondary levels for package 'Level_HOC_world'
+LogCook: Display: Cooked packages 1577 Packages Remain 8 Total 1585
+LogCook: Display: Cooked packages 1585 Packages Remain 0 Total 1585
+LogCook: Display: Cook Diagnostics: OpenFileHandles=1592, VirtualMemory=1567MiB
+LogCook: Display: Finishing up...
+LogAssetRegistryGenerator: Display: Saving asset registry v12.
+LogAssetRegistryGenerator: Display: Generated development asset registry C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Saved/Cooked/Windows/ObstacleAssault/Metadata/DevelopmentAssetRegistry.bin num assets 1713, size is 1191.56kb
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 1683, size is 728.10kb
+LogAssetRegistryGenerator: Display: Done saving asset registry. Took 0.1 seconds.
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'ObstacleAssault' (PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 156, Unique Shadermaps: 102 (65.38%)
+LogShaderLibrary: Display: Total Shaders: 2116, Unique Shaders: 1515 (71.60%)
+LogShaderLibrary: Display: Total Shader Size: 4.04mb, Unique Shaders Size: 2.94mb (72.74%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 12
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 494
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     53, 30, 27, 19, 18, 18, 17, 13, 13, 12
+LogShaderLibrary: Display: Textual dump saved to '../../../../../Users/tayke/Documents/Unreal Projects/ObstacleAssault/Saved/Shaders/PCD3D_SM5/ShaderDebug-ObstacleAssault-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Finalize package store(s)...
+LogCook: Display: Done finalizing package store(s)
+LogCook: Display: Cook by the book total time in tick 36.076944s total time 83.154770
+LogCook: Display: Peak Used virtual 1572 MiB Peak Used physical 1665 MiB
+LogCook: Display: Packages Cooked: 1585, Packages Iteratively Skipped: 0, Total Packages: 1585
+LogCook: Display: Hierarchy Timer Information:
+LogCook: Display:   Root: 0.000s (0)
+LogCook: Display:     CleanSandbox: 0.117s (1)
+LogCook: Display:     CollectFilesToCook: 0.465s (1)
+LogCook: Display:       CookModificationDelegate: 0.000s (1)
+LogCook: Display:     PostLoadPackageFixup: 0.004s (1)
+LogCook: Display:     GenerateLongPackageName: 0.008s (1)
+LogCook: Display:     TickCookOnTheSide: 35.915s (1280724)
+LogCook: Display:       PostLoadPackageFixup: 3.781s (1282816)
+LogCook: Display:       LoadPackageForCooking: 12.094s (1589)
+LogCook: Display:       SavingPackages: 19.160s (175)
+LogCook: Display:         BeginPrepareSave: 0.449s (476)
+LogCook: Display:         PrecachePlatformDataForNextPackage: 4.036s (1561)
+LogCook: Display:           BeginPrepareSave: 4.035s (1109)
+LogCook: Display:         SaveCookedPackage: 14.398s (1585)
+LogCook: Display:           GEditorSavePackage: 14.292s (1585)
+LogCook: Display:             VerifyCanCookPackage: 0.011s (1558)
+LogCook: Display:           TargetDomainDependencies: 0.002s (1585)
+LogCook: Display:         ClearAllCachedCookedPlatformData: 0.038s (1585)
+LogCook: Display:     SavingCurrentIniSettings: 0.019s (1)
+LogCook: Display:       ProcessingAccessedStrings: 0.002s (1)
+LogCook: Display:     SavingAssetRegistry: 0.267s (1)
+LogCook: Display:       BuildChunkManifest: 0.042s (1)
+LogCook: Display:       SaveManifests: 0.000s (1)
+LogCook: Display:       SaveRealAssetRegistry: 0.081s (1)
+LogCook: Display:       WriteCookerOpenOrder: 0.105s (1)
+LogCook: Display:     FinalizePackageStore: 0.028s (1)
+LogCook: Display: Done!
+LogSavePackage: Display: Took 0.018516s to verify the EDL loading graph.
+LogCookCommandlet: Display: Misc Cook Stats
+LogCookCommandlet: Display: ===============
+LogCookCommandlet: Display: NiagaraShader.Misc
+LogCookCommandlet: Display:     ShadersCompiled=6
+LogCookCommandlet: Display: ShaderCompiler
+LogCookCommandlet: Display:     BlockingTimeSec=0.000065
+LogCookCommandlet: Display:     AsyncCompileTimeSec=18.105434
+LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.004406
+LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=6
+LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.552773
+LogCookCommandlet: Display: GlobalShader.Misc
+LogCookCommandlet: Display:     ShadersCompiled=0
+LogCookCommandlet: Display: MeshMaterial.Misc
+LogCookCommandlet: Display:     ShadersCompiled=0
+LogCookCommandlet: Display: MaterialShader.Misc
+LogCookCommandlet: Display:     ShadersCompiled=0
+LogCookCommandlet: Display: MaterialInstance
+LogCookCommandlet: Display:     UpdateCachedExpressionDataSec=0.008406
+LogCookCommandlet: Display: Material
+LogCookCommandlet: Display:     UpdateCachedExpressionDataSec=0.009897
+LogCookCommandlet: Display: Package.Load
+LogCookCommandlet: Display:     NumInlineLoads=132
+LogCookCommandlet: Display:     NumPreloadedDependencies=136
+LogCookCommandlet: Display:     NumPackagesLoaded=1297
+LogCookCommandlet: Display:     LoadPackageTimeSec=16.226743
+LogCookCommandlet: Display: Package.Save
+LogCookCommandlet: Display:     NumPackagesIterativelySkipped=0
+LogCookCommandlet: Display:     NumPackagesSaved=1585
+LogCookCommandlet: Display:     SavePackageTimeSec=5.678919
+LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.000000
+LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCookCommandlet: Display:     ResetLoadersTimeSec=0.000000
+LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCookCommandlet: Display:     SerializeExportsTimeSec=0.000000
+LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.700458
+LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+LogCookCommandlet: Display:     MBWritten=0.000000
+LogCookCommandlet: Display: CookOnTheFlyServer
+LogCookCommandlet: Display:     PeakRequestQueueSize=1469
+LogCookCommandlet: Display:     PeakLoadQueueSize=1469
+LogCookCommandlet: Display:     PeakSaveQueueSize=56
+LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCookCommandlet: Display: Package.DiffTotal
+LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+LogCookCommandlet: Display: UnversionedProperties
+LogCookCommandlet: Display:     SavedStructs=0
+LogCookCommandlet: Display:     SavedMB=0
+LogCookCommandlet: Display:     EquivalentTaggedMB=0
+LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+LogCookCommandlet: Display:     BitfieldWasteKB=0
+LogCookCommandlet: Display:
+LogCookCommandlet: Display: Cook Profile
+LogCookCommandlet: Display: ============
+LogCookCommandlet: Display:  0.CookWallTimeSec=89.846604
+LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=6.655855
+LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=83.186536
+LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=2.801614
+LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000260
+LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=36.718972
+LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=12.094764
+LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=14.398038
+LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPrepareSaveTimeSec=4.483608
+LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPrepareSaveTimeSec=0.000000
+LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=8.334640
+LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.801957
+LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.971903
+LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.165683
+LogCookCommandlet: Display:  0. 1. 7.TickLoopFlushRenderingCommandsTimeSec=25.414211
+LogCookCommandlet: Display:  0. 1. 8.TargetPlatforms=Windows
+LogCookCommandlet: Display:  0. 1. 9.CookProject=ObstacleAssault
+LogCookCommandlet: Display:  0. 1. 10.CookCultures=
+LogCookCommandlet: Display:
+LogCookCommandlet: Display: DDC Summary Stats
+LogCookCommandlet: Display: =================
+LogCookCommandlet: Display: BackEnd         =InstalledDerivedDataBackendGraph
+LogCookCommandlet: Display: HasLocalCache   =      true
+LogCookCommandlet: Display: HasSharedCache  =     false
+LogCookCommandlet: Display: HasCloudCache   =     false
+LogCookCommandlet: Display: HasZenCache     =     false
+LogCookCommandlet: Display: TotalGetHits    =      5519
+LogCookCommandlet: Display: TotalGets       =      5525
+LogCookCommandlet: Display: TotalGetHitPct  =  0.998914
+LogCookCommandlet: Display: LocalGetHitPct  =  0.848145
+LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+LogCookCommandlet: Display: CloudGetHitPct  =  0.000000
+LogCookCommandlet: Display: OtherGetHitPct  =  0.150769
+LogCookCommandlet: Display: GetMissPct      =  0.001086
+LogCookCommandlet: Display: TotalPutHits    =         0
+LogCookCommandlet: Display: TotalPuts       =         0
+LogCookCommandlet: Display: TotalPutHitPct  =  0.000000
+LogCookCommandlet: Display: PutMissPct      =  0.000000
+LogCookCommandlet: Display:
+LogCookCommandlet: Display: DDC Resource Stats
+LogCookCommandlet: Display: =======================================================================================================
+LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCookCommandlet: Display: Texture (Streaming)                            10.34                   0.00             0       1903.92
+LogCookCommandlet: Display: DistanceField                                   2.81                   0.00             0         73.98
+LogCookCommandlet: Display: StaticMesh                                      2.62                   0.00             0         85.08
+LogCookCommandlet: Display: PhysX (BodySetup)                               2.57                   0.97             0        101.34
+LogCookCommandlet: Display: MaterialShader                                  1.65                   1.65             0          8.74
+LogCookCommandlet: Display: CardRepresentation                              1.13                   0.00             0          0.12
+LogCookCommandlet: Display: NavCollision                                    0.96                   0.00             0          1.01
+LogCookCommandlet: Display: SkeletalMesh                                    0.61                   0.00             0         35.99
+LogCookCommandlet: Display: NiagaraScript                                   0.54                   0.54             0          0.00
+LogCookCommandlet: Display: Audio (Streaming)                               0.42                   0.00             0          0.92
+LogCookCommandlet: Display: AnimSequence                                    0.35                   0.35             0          5.26
+LogCookCommandlet: Display: GlobalShader                                    0.26                   0.26             0         12.38
+LogCookCommandlet: Display: SoundWave                                       0.24                   0.24             0          0.92
+LogCookCommandlet: Display: NiagaraShader                                   0.03                   0.03             0          0.06
+LogCookCommandlet: Display: Audio (Inline)                                  0.02                   0.02             0          0.02
+LogCookCommandlet: Display: LandscapeCollision (Heightfield)                0.02                   0.02             0          0.05
+LogCookCommandlet: Display: Texture (Inline)                                0.01                   0.01             0         82.77
+LogPackageBuildDependencyTracker: Display: Package Accesses (967 referencing packages with a total of 18810 unique accesses)
+LogInit: Display:
+LogInit: Display: Warning/Error Summary (Unique only)
+LogInit: Display: -----------------------------------
+LogInit: Display: LogAssetRegistry: Error: Package C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC.uasset has malformed tag
+LogInit: Display: LogAssetRegistry: Error: Package C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N.uasset has malformed tag
+LogInit: Display: LoadErrors: Error: The summary for the package '/Game/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC' is invalid. Check that the file is of the expected type and not corrupted.
+LogInit: Display: LogCook: Error: Error loading C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC.uasset!
+LogInit: Display: LoadErrors: Error: The summary for the package '/Game/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N' is invalid. Check that the file is of the expected type and not corrupted.
+LogInit: Display: LogCook: Error: Error loading C:/Users/tayke/Documents/Unreal Projects/ObstacleAssault/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N.uasset!
+LogInit: Display: LogCook: Warning: Package /Game/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC exists on disk but does not exist in the AssetRegistry
+LogInit: Display: LogCook: Warning: Package /Game/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N exists on disk but does not exist in the AssetRegistry
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_CarbonFiber': Can't find file.
+LogInit: Display: LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_CarbonFiber'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_Metal_Gold': Can't find file.
+LogInit: Display: LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_Metal_Gold'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_Metal_Platinum': Can't find file.
+LogInit: Display: LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_Metal_Platinum'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_MetalBrushed': Can't find file.
+LogInit: Display: LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_MetalBrushed'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_PlasticShinyH': Can't find file.
+LogInit: Display: LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_PlasticShinyH'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_robot_d.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Static/MI_Rubber': Can't find file.
+LogInit: Display: LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Static/MI_Rubber'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\StaticMeshes\MergedActors\MA_Robot_c.uasset: Failed to load '/Game/LearningKit_Games/MaterialLibrary/Moveable/MI_AsphaltA': Can't find file.
+LogInit: Display: LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/MaterialLibrary/Moveable/MI_AsphaltA'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\BlockGame\Maps\BlockGameMap.umap: Failed to load '/Engine/EngineSky/M_SkyTimeOfDay': Can't find file.
+LogInit: Display: LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Engine/EngineSky/M_SkyTimeOfDay'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Antenna.uasset: Failed to load '/Game/LearningKit_Games/Assets/Robot/SM_KitRobot_IRSensorA': Can't find file.
+LogInit: Display: LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/LearningKit_Games/Assets/Robot/SM_KitRobot_IRSensorA'
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L5/Map_5-1_RemoteControl.Map_5-1_RemoteControl:PersistentLevel.BPC_Robot_Remote_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L5/Map_5-1_RemoteControl.Map_5-1_RemoteControl:PersistentLevel.BPC_Robot_Remote_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-2_Distance.Map_4-2_Distance:PersistentLevel.BPC_Robot_Distance_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-2_Distance.Map_4-2_Distance:PersistentLevel.BPC_Robot_Distance_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L3/Map_3-1_FollowLine.Map_3-1_FollowLine:PersistentLevel.BPC_Robot_FollowLine_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L3/Map_3-1_FollowLine.Map_3-1_FollowLine:PersistentLevel.BPC_Robot_FollowLine_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L2/Map_2-1_LineDetection.Map_2-1_LineDetection:PersistentLevel.BPC_Robot_LineDection.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L2/Map_2-1_LineDetection.Map_2-1_LineDetection:PersistentLevel.BPC_Robot_LineDection.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_SpinA_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_SpinA_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_TurnOneWheel_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_TurnOneWheel_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_TurnArc_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-4_Turning.Map_1-4_Turning:PersistentLevel.BPC_Robot_Simple_TurnArc_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-6_Challenge.Map_1-6_Challenge:PersistentLevel.BPC_Robot_Deadrec_Challenge_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-6_Challenge.Map_1-6_Challenge:PersistentLevel.BPC_Robot_Deadrec_Challenge_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_BuildRobot.Map_BuildRobot:PersistentLevel.BPC_Robot_TESTING_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/Map_BuildRobot.Map_BuildRobot:PersistentLevel.BPC_Robot_TESTING_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-1_Distance.Map_4-1_Distance:PersistentLevel.BPC_Robot_Distance_Turn_FINAL_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-1_Distance.Map_4-1_Distance:PersistentLevel.BPC_Robot_Distance_Turn_FINAL_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-3_Distance_Followline.Map_4-3_Distance_Followline:PersistentLevel.BPC_Robot_FollowLine_FINAL_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L4/Map_4-3_Distance_Followline.Map_4-3_Distance_Followline:PersistentLevel.BPC_Robot_FollowLine_FINAL_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_WheelCollisionIssue_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_WheelCollisionIssue_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_Unicycle_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_Unicycle_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_TopHeavy_2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-1_BalanceAndDesignA.Map_1-1_BalanceAndDesignA:PersistentLevel.BPC_Robot_TopHeavy_2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-2_FrictionTraction.Map_1-2_FrictionTraction:PersistentLevel.BPC_Robot_WideWheels_Long2.NODE_AddPhysicsConstraintComponent-1' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: PIE: Warning: Constraint in '/Game/LearningKit_Robots/Maps_Robots/L1/Map_1-2_FrictionTraction.Map_1-2_FrictionTraction:PersistentLevel.BPC_Robot_WideWheels_Long2.NODE_AddPhysicsConstraintComponent-1_0' attempting to create a joint between objects that are both static.  No joint created.
+LogInit: Display: NOTE: Only first 50 warnings displayed.
+LogInit: Display:
+LogInit: Display: Failure - 10 error(s), 160 warning(s)
+LogInit: Display:
+
+Execution of commandlet took:  83.24 seconds
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: === FShaderJobCache stats ===
+LogShaderCompilers: Display: Total job queries 6, among them cache hits 0 (0.00%)
+LogShaderCompilers: Display: Tracking 3 distinct input hashes that result in 3 distinct outputs (100.00%)
+LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+LogShaderCompilers: Display: === Shader Compilation stats ===
+LogShaderCompilers: Display: Shaders Compiled: 1
+LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100.00%)
+LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+LogShaderCompilers: Display: Job execution time: average 6.04 s, max 6.47 s
+LogShaderCompilers: Display: Job life time (pending + execution): average 6.06 s, max 6.50
+LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.50 s
+LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+LogShaderCompilers: Display: Average processing rate: 0.46 jobs/sec
+LogShaderCompilers: Display: Effective parallelization: 0.84 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+LogShaderCompilers: Display:                                               FNiagaraShader (compiled    3 times, average 1.82 sec, max 2.25 sec, min 1.39 sec)
+LogShaderCompilers: Display: Top 1 shader types by total compile time:
+LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled    3 times, average 1.82 sec, max 2.25 sec, min 1.39 sec)
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: Shaders left to compile 0
+Took 93.5144278s to run UnrealEditor-Cmd.exe, ExitCode=1
+SafeDeleteFile C:\Users\tayke\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.0\Cook-2022.09.05-19.22.16.txt
+SafeCopyFile C:\Program Files\UE_5.0\Engine\Programs\AutomationTool\Saved\Cook-2022.09.05-19.20.43.txt C:\Users\tayke\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.0\Cook-2022.09.05-19.22.16.txt
+SafeDeleteFile C:\Program Files\UE_5.0\Engine\Programs\AutomationTool\Saved\Cook-2022.09.05-19.20.43.txt
+==============================================================================
+ERROR: Cook failed.
+       (see C:\Users\tayke\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.0\Log.txt for full exception trace)
+
+CommandletException: Editor terminated with exit code 1 while running Cook for C:\Users\tayke\Documents\Unreal Projects\ObstacleAssault\ObstacleAssault.uproject; see log C:\Users\tayke\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.0\Cook-2022.09.05-19.22.16.txt
+   at AutomationTool.CommandUtils.RunCommandlet(FileReference ProjectName, String UnrealExe, String Commandlet, String Parameters, String& DestLogFile, Int32 ErrorLevel) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\CommandletUtils.cs:line 425
+   at AutomationTool.CommandUtils.CookCommandlet(FileReference ProjectName, String UnrealExe, String[] Maps, String[] Dirs, String InternationalizationPreset, String[] CulturesToCook, String TargetPlatform, String Parameters) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\CommandletUtils.cs:line 91
+   at AutomationScripts.Project.Cook(ProjectParams Params) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\Scripts\CookCommand.Automation.cs:line 268Wrapped by AutomationException: Cook failed.
+   at AutomationScripts.Project.Cook(ProjectParams Params) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\Scripts\CookCommand.Automation.cs:line 284
+   at BuildCookRun.DoBuildCookRun(ProjectParams Params) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\Scripts\BuildCookRun.Automation.cs:line 206
+   at BuildCookRun.ExecuteBuild() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\Scripts\BuildCookRun.Automation.cs:line 41
+   at AutomationTool.BuildCommand.Execute() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\BuildCommand.cs:line 344
+   at AutomationTool.Automation.Execute(List`1 CommandsToExecute, Dictionary`2 Commands) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\Automation.cs:line 254
+   at AutomationTool.Automation.Process(ParsedCommandLine AutomationToolCommandLine, StartupTraceListener StartupListener, HashSet`1 ScriptModuleAssemblies) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\Automation.cs:line 153
+==============================================================================
+AutomationTool executed for 0h 1m 42s
+AutomationTool exiting with ExitCode=25 (Error_UnknownCookFailure)
